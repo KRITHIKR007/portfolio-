@@ -1,0 +1,215 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Cursor Styles */
+body {
+    cursor: url('assets/images/pink-splash-cursor.png'), auto; /* Add your pink splash cursor image here */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid ironblue; /* Iron blue outline */
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid ironblue; /* Iron blue outline */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: ironblue; /* Hover effect */
+}
+
+
+/* Profile Image */
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    margin: 20px 0; /* Optional: Add some space above and below the image */
+}
+
+.profile-pic {
+    width: 150px; /* Set a fixed width */
+    height: auto; /* Maintain original height to keep aspect ratio */
+    max-width: 100%; /* Prevent overflow */
+    object-fit: cover; /* Crop the image to fit */
+}
+
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: ironblue; /* Section header color */
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    border: 2px solid ironblue; /* Iron blue outline */
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills li {
+    display: flex;
+    align-items: center;
+}
+
+#skills i {
+    font-size: 24px;
+    color: ironblue; /* Iron blue color for icons */
+    margin-right: 8px;
+}
+
+/* Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: ironblue; /* Iron blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Social Links */
+.social-links a {
+    color: white;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: ironblue; /* Hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 2px solid ironblue; /* Iron blue outline */
+    padding-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+/* Portfolio Section Styles */
+.portfolio-section {
+    border: 2px solid ironblue; /* Iron blue outline */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black */
+}
+
+/* Section Title Styles */
+.portfolio-section h2 {
+    color: ironblue; /* Iron blue color for section titles */
+    border-bottom: 2px solid ironblue; /* Underline for section titles */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+/* Download Button Styles */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: ironblue; /* Iron blue background */
+    color: white; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: darkblue; /* Darker shade on hover */
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    margin: 10px 0; /* Spacing between links */
+}
+
+ul li a {
+    display: inline-block; /* Make links appear as buttons */
+    padding: 12px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Button text color */
+    background-color: #000000; /* Button background color */
+    border: 2px solid transparent; /* Transparent border for hover effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+ul li a:hover {
+    background-color: transparent; /* Change background on hover */
+    color: #007bff; /* Change text color on hover */
+    border-color: #57194d; /* Change border color on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+
